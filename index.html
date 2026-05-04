@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="theme-color" content="#00f2ff">
+    <title>ORACLE-OS | JEFFREY LMB</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <div class="overlay"></div>
+        
+        <header>
+            <div class="status-line">
+                <span class="label">DEV_AUTH:</span> <span class="value">JEFFREY LMB</span>
+            </div>
+            <div class="status-line">
+                <span class="label">SYSTEM:</span> <span id="battery" class="value">--%</span>
+            </div>
+        </header>
+
+        <main>
+            <div id="ui-box">
+                <h1 class="glitch" data-text="ORACLE-OS">ORACLE-OS</h1>
+                <p class="dev-sign">BY JEFFREY LMB INDUSTRIES ©</p>
+                
+                <div id="scanner-container">
+                    <div id="scan-zone">
+                        <div class="scanner-bar"></div>
+                    </div>
+                </div>
+                <p id="feedback">POSER LE DOIGT POUR INITIALISER</p>
+            </div>
+
+            <div id="result-screen" class="hidden">
+                <h2 class="alert">ALERTE CHRONOLOGIQUE</h2>
+                <p>ANOMALIE DÉTECTÉE PAR L'ALGORITHME JEFFREY-LMB.</p>
+                <div id="countdown">24:00:00</div>
+                <p class="small">PROTOCOLE DE SÉCURITÉ ACTIVÉ.</p>
+            </div>
+        </main>
+
+        <footer>
+            <div class="location">DISTRICT: <span id="loc-data">LUBUMBASHI_SECTOR</span></div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
