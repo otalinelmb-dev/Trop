@@ -1,3 +1,5 @@
+const audio = new Audio('scan.mp3');
+
 document.addEventListener('DOMContentLoaded', () => {
     const scanZone = document.getElementById('scan-zone');
     const feedback = document.getElementById('feedback');
